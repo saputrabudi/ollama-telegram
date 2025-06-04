@@ -12,7 +12,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Konfigurasi
-TELEGRAM_BOT_TOKEN = "8069524191:AAH8NFWfnjMzijc-jZ77j9acGCpqZeSedQM"
+TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "saputrabudi/exabot-micro:latest"
 
