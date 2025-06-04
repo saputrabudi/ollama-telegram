@@ -4,7 +4,7 @@ Model: saputrabudi/exabot-micro
 """
 
 # Telegram Bot Configuration
-TELEGRAM_BOT_TOKEN = "8069524191:AAH8NFWfnjMzijc-jZ77j9acGCpqZeSedQM"
+TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 
 # Ollama Configuration - Model saputrabudi/exabot-micro
 OLLAMA_URL = "http://localhost:11434/api/generate"
