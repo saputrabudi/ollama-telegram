@@ -1,0 +1,16 @@
+[Unit]
+Description=Telegram Chatbot AI dengan Ollama ExaBot-Micro
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/AI
+Environment=PATH=/root/AI/telegram_bot_env/bin
+ExecStart=/root/AI/telegram_bot_env/bin/python /root/AI/telegram_bot.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target 
